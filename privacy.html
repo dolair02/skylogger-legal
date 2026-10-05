@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — Sky Logger: Flight Log</title>
+  <style>
+    :root {
+      --bg: #070b14;
+      --card-bg: #0f172a;
+      --border: #1e293b;
+      --sky: #38bdf8;
+      --text: #f8fafc;
+      --muted: #94a3b8;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 820px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 40px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+    }
+    @media (max-width: 640px) {
+      .container { padding: 24px 16px; border-radius: 16px; }
+    }
+    .header {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 24px;
+      margin-bottom: 32px;
+    }
+    h1 { font-size: 28px; font-weight: 800; color: var(--text); margin-bottom: 8px; }
+    .updated { color: var(--muted); font-size: 14px; }
+    h2 { font-size: 20px; font-weight: 700; color: var(--sky); margin: 32px 0 12px; }
+    p, li { font-size: 15px; color: #cbd5e1; margin-bottom: 14px; }
+    ul { padding-left: 24px; margin-bottom: 16px; }
+    a { color: var(--sky); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .nav-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      margin-top: 40px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Sky Logger: Flight Log</h1>
+      <p class="updated">Official Privacy Policy &middot; Last updated: October 2026</p>
+    </div>
+
+    <h2>1. Overview &amp; Privacy Commitment</h2>
+    <p>Sky Logger ("the Application", "we", "us") is a flight logbook and telemetry management tool built for drone pilots and commercial FAA Part 107 operators. We strongly believe your flight data is personal and proprietary. All core flight logging functions operate fully on your device without requiring an account.</p>
+
+    <h2>2. Data Collection &amp; Storage</h2>
+    <p><strong>Offline / Local-First Usage:</strong> If you use Sky Logger without creating a cloud sync account, 100% of your data (flight records, aircraft fleet, timestamps, battery logs, and GPS tracks) remains exclusively on your physical iOS device. We do not transmit or inspect your local data.</p>
+    <p><strong>Optional Cloud Sync:</strong> If you choose to register for cross-device cloud synchronization, we securely store:</p>
+    <ul>
+      <li><strong>Account Credentials:</strong> Email address and username (call sign) for authentication.</li>
+      <li><strong>Logbook Records:</strong> Your logged flights, aircraft list, notes, and GPS coordinates to synchronize across your authorized devices.</li>
+    </ul>
+
+    <h2>3. Location Data</h2>
+    <p>Sky Logger requests GPS location access <strong>only while you actively record a live flight path</strong>. Location data is stored strictly within that individual flight record. We do not track background location when the app is inactive, and we never sell or share location information with third-party advertisers or data brokers.</p>
+
+    <h2>4. Third-Party Services &amp; Infrastructure</h2>
+    <p>For cloud synchronization and database security, Sky Logger uses Supabase with encrypted HTTPS data transmission and row-level security. Payment transactions are processed directly and securely by Apple StoreKit. We do not collect or store credit card details or billing information.</p>
+
+    <h2>5. Account &amp; Data Deletion</h2>
+    <p>You maintain complete sovereignty over your data. You can permanently delete your entire account and all cloud-stored flight data at any time directly in the app: go to <strong>Account &rarr; Delete my account</strong>. This action is instantaneous and irreversible.</p>
+
+    <h2>6. Contact Developer</h2>
+    <p>For questions or privacy inquiries regarding Sky Logger, please contact: <a href="mailto:dolair02@gmail.com">dolair02@gmail.com</a>.</p>
+
+    <div class="nav-links">
+      <a href="terms.html">Terms of Service (EULA)</a>
+      <a href="mailto:dolair02@gmail.com">Developer Support</a>
+    </div>
+  </div>
+</body>
+</html>
